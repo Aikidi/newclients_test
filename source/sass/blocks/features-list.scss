@@ -1,0 +1,29 @@
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.features-list__icon-wrapper {
+  margin: 0;
+  height: 30px;
+  margin-bottom: 12px;
+}
+
+.features-list__icon {
+  max-height: 30px;
+}
+
+.features-list__caption {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.features-list__description {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+  color: #969FA8;
+}

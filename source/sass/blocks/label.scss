@@ -1,0 +1,27 @@
+.label {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px 5px;
+
+  &--red {
+    background-color: #E30611;
+    color: #ffffff;
+  }
+
+  &--white {
+    background-color: #ffffff;
+    color: #E30611;
+  }
+
+  &--circle {
+    border-radius: 20px;
+  }
+
+  &--oval {
+    border-radius: 5px;
+  }
+
+  &--bottom {
+    margin-top: auto;
+  }
+}

@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Roboto", "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 100px;
+}
+
+.content-wrapper {
+  max-width: 1450px;
+  padding: 0 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
